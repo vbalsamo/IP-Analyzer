@@ -3,7 +3,6 @@ import requests
 from requests.exceptions import ConnectTimeout
 from bs4 import BeautifulSoup
 import concurrent.futures
-import subprocess
 
 
 def parse_arguments():
